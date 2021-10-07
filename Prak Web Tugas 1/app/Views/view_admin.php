@@ -1,6 +1,7 @@
-<?= $this->extend('template');?>
+<?= $this->extend('template'); ?>
 
-<?= $this->section('content');?>
+<?= $this->section('content'); ?>
+<body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
 
   <!-- Preloader -->
@@ -840,7 +841,7 @@
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content-header -->
-    <!-- BAKALAN DIUBAH -->
+    <!--bakal dirubah -->
     </section>
     <!-- /.content -->
   </div>

@@ -8,15 +8,5 @@ class Home extends BaseController
 	{
 		return view('welcome_message');
 	}
-
-	public function fungsiBaru($nama, $npm) {
-		echo "Hello $nama";
-		echo "<br> $npm";
-	}
-
-	public function show() {
-		$adat['nama'] = 'Aprila';
-		$adat['jurusan'] = 'Ilmu Komputer';
-		echo view("mahasiswa/index", $adat);
-	}
+	
 }
