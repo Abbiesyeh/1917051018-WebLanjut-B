@@ -6,7 +6,7 @@ use CodeIgniter\Database\Migration;
 
 class User extends Migration
 {
-	public function up()
+    	public function up()
 	{
 			$this->forge->addField([
 				'id' => [
@@ -37,4 +37,5 @@ class User extends Migration
 	{
 		$this->forge->dropTable('user');
 	}
+    
 }
